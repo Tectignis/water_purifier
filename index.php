@@ -67,7 +67,7 @@ if(isset($_POST['submit'])){
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Medilab Bootstrap Template - Index</title>
+  <title>Aayushi Water Purifier Services</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -406,12 +406,12 @@ Getting Genuine Service from Aayushi Water Purifier is important as only from Aa
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                  <img src="assets/img/test2.webp" class="testimonial-img" alt="">
                   <h3>Saul Goodman</h3>
                   <h4>Ceo &amp; Founder</h4>
                   <p>
                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                    We at Aayushi Water Purifier Services, aim to provide clarity about our company profile, products, services and every other detail that you may need.
                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                   </p>
                 </div>
@@ -421,12 +421,12 @@ Getting Genuine Service from Aayushi Water Purifier is important as only from Aa
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                  <img src="assets/img/test.webp" class="testimonial-img" alt="">
                   <h3>Sara Wilsson</h3>
                  
                   <p>
                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    We are a major producer of thermal and carbonless coated papers worldwide. We have a $50,000 piece of test equipment in one of our quality control labs that is used to measure particle size in our coatings down to .02 microns. It requires an extremely clean source of water to dilute our coating sample in the measurement process.
+                    We are a major producer of thermal and carbonless coated papers worldwide. We have a $50,000 piece of test equipment in one of our quality control labs that is used to measure particle size in our coatings down to 
                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                   </p>
                 </div>
@@ -438,12 +438,12 @@ Getting Genuine Service from Aayushi Water Purifier is important as only from Aa
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                  <img src="assets/img/test1.webp" class="testimonial-img" alt="">
                   <h3>Matt Brandon</h3>
                   <h4>Freelancer</h4>
                   <p>
                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                    We at Aayushi Water Purifier Services, aim to provide clarity about our company profile, products, services and every other detail that you may need.
                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                   </p>
                 </div>
@@ -627,7 +627,7 @@ Getting Genuine Service from Aayushi Water Purifier is important as only from Aa
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>Medilab</h3>
+            <h3>Aayushi Water Purifier</h3>
             <p>
             A/4003, Mayuresh Trade Center, City Mall, Sector-19, Plot no.4, Vashi-Turbhe Road, Navi Mumbai-400705 <br><br>
               <strong>Phone:</strong>+91 9321116602/+91 7666850999<br>
