@@ -7,7 +7,7 @@ if(isset($_POST['submit'])){
     $mobile=$_POST['mobile'];  
     $message=$_POST['message'];  
   $from = 'Enquiry <'.$email.'>' . "\r\n";
-  $sendTo = 'Enquiry <'yadavpriya1425@gmail.com'>';
+  $sendTo = "Enquiry <'yadavpriya1425@gmail.com'>";
   $subject = 'Contact Form';
   // $fields = array( 'name' => 'name' );
   $from = 'Aayushi water purifier';
