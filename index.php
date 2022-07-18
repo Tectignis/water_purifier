@@ -7,10 +7,10 @@ if(isset($_POST['submit'])){
     $mobile=$_POST['mobile'];  
     $message=$_POST['message'];  
   $from = 'Enquiry <'.$email.'>' . "\r\n";
-  $sendTo = 'Enquiry <'.$email.'>';
-  $subject = 'Digiinfromatrics';
+  $sendTo = 'Enquiry <'yadavpriya1425@gmail.com'>';
+  $subject = 'Contact Form';
   // $fields = array( 'name' => 'name' );
-  $from = 'Agreerent: 1.0' . "\r\n";
+  $from = 'Aayushi water purifier';
   $from .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
   
   
