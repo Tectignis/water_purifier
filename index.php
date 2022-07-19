@@ -7,7 +7,7 @@ if(isset($_POST['submit'])){
     $mobile=$_POST['mobile'];  
     $message=$_POST['message'];  
   $from = 'Enquiry <'.$email.'>' . "\r\n";
-  $sendTo = "Enquiry <'yadavpriya1425@gmail.com'>";
+  $sendTo = "Enquiry <yadavpriya1425@gmail.com>";
   $subject = 'Contact Form';
   // $fields = array( 'name' => 'name' );
   $from = 'Aayushi water purifier';
@@ -106,7 +106,7 @@ if(isset($_POST['submit'])){
     <div class="container d-flex justify-content-between">
       <div class="contact-info d-flex align-items-center">
         <i class="bi bi-envelope"></i> <a href="mailto:contact@example.com">aayushiwps@yahoo.com</a>
-        <i class="bi bi-phone"></i> +91 9321116602
+        <i class="bi bi-phone"></i> <a href="https://wa.me/919321116602">91 9321116602</a>
       </div>
       <div class="d-none d-lg-flex social-links align-items-center">
         <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
@@ -131,7 +131,7 @@ if(isset($_POST['submit'])){
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
           
-         
+          <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
         
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
@@ -146,8 +146,8 @@ if(isset($_POST['submit'])){
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
     <div class="container">
-      <h1>Welcome to Aayushi Water Purifier Services</h1>
-      <h4>The Double Goodness of Copper And Zinc Now In Your Aquaguard.</h4>
+      <h3>Welcome to Aayushi Water Purifier Services</h3>
+      <h5>The Double Goodness of Copper And Zinc Now In Your Aquaguard.</h5>
       
     </div>
   </section><!-- End Hero -->
@@ -166,9 +166,7 @@ if(isset($_POST['submit'])){
               <p>
               Aayushi RO Water Purifiers remove bacteria, viruses, chemicals, and even dissolved impurities such as arsenic, rust, pesticides, and fluorides to make water 100% pure.
               </p>
-              <div class="text-center">
-                <a href="#" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
-              </div>
+             
             </div>
           </div>
           <div class="col-lg-3 d-flex align-items-stretch">
@@ -178,9 +176,7 @@ if(isset($_POST['submit'])){
               <p>
               RO purification followed by UV and UF purification removes chemicals, pesticides, fluorides, dissolved impurities, kills bacteria & viruses to make water 100% pure.
               </p>
-              <div class="text-center">
-                <a href="#" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
-              </div>
+             
             </div>
           </div>
           <div class="col-lg-3 d-flex align-items-stretch">
@@ -190,9 +186,7 @@ if(isset($_POST['submit'])){
                   <p>
                   Boiling the water or using conventional purifiers (UV) only kill bacteria and viruses but does not remove dissolved impurities.
                   </p>
-                  <div class="text-center">
-                    <a href="#" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
-                  </div>
+                 
                 </div>
             </div>
           <div class="col-lg-3 d-flex align-items-stretch">
@@ -202,16 +196,14 @@ if(isset($_POST['submit'])){
               <p>
               Double purification process by UF removes dead bacteria, viruses and cysts by the fine pores of hollow fibre UF , thereby providing pure & tasty drinking water.
               </p>
-              <div class="text-center">
-                <a href="#" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
-              </div>
+             
             </div>
           </div>
         </div>
       </div>
     </section>
    
-
+    <div class="" style="justify-content:end; float:right;transform: rotate(90deg);margin-right: -48px;"><button type="text" name="submit" style="background:#0437F2; color:white;">Book A Free Demo</button></div>
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
       <div class="container-fluid">
@@ -254,13 +246,13 @@ Zinc is one such micro-nutrient and with the dedicated efforts of Our Experience
         <div class="section-title">
           <h2>Services</h2>
           <p>Service is an essential part of a Water Purifier as you may require to change the filters.
-Getting Genuine Service from Aayushi Water Purifier is important as only from Aayushi Water Purifier you can get Genuine Spares which will continue to ensure that you get 100% Pure Water.</p>
+              Getting Genuine Service from Aayushi Water Purifier is important as only from Aayushi Water Purifier you can get Genuine Spares which will continue to ensure that you get 100% Pure Water.</p>
         </div>
 
         <div class="row">
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="icon-box">
-              <div class="icon"><i class="fas fa-copyy"></i></div>
+              <div class="icon"><i class="fa-brands fa-servicestack"></i></div>
               <h4><a href="">Maintenance</a></h4>
               <p>Annual Maintenance Contract online to ensure that your product is working efficiently and you have the much needed peace of mind. No lengthy procedures, no signing up forms.</p>
             </div>
@@ -268,15 +260,15 @@ Getting Genuine Service from Aayushi Water Purifier is important as only from Aa
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
             <div class="icon-box">
-              <div class="icon"><i class="fas fa-users"></i></div>
-              <h4><a href="">24/7 365 Days Support </a></h4>
+              <div class="icon"><i class="fas fa-user"></i></div>
+              <h4><a href="">24*7/365 Days Support </a></h4>
               <p>Aayushi water Purifiers are  offer 1 Year Warranty to bring peace of mind as well as ensuring to give you 100% pure water during this period.</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
             <div class="icon-box">
-              <div class="icon"><i class="fas fa-repairing"></i></div>
+              <div class="icon"><i class="fa-brands fa-servicestack"></i></div>
               <h4><a href=""> Parts Replacement</a></h4>
               <p>*Free replacement of consumables such as filters and activated carbon</p>
             </div>
@@ -287,180 +279,8 @@ Getting Genuine Service from Aayushi Water Purifier is important as only from Aa
       </div>
     </section><!-- End Services Section -->
 
-    <!-- ======= Appointment Section ======= -->
-    <section id="appointment" class="appointment section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Book A Free Demo</h2>
-          <p>Protect Your Family With The Next-Gen Aayushi Water Purifier Services</p>
-        </div>
-
-        <form  method="post"  class="php-email-form">
-          <div class="row">
-            <div class="col-md-4 form-group">
-              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-              
-            </div>
-            <div class="col-md-4 form-group mt-3 mt-md-0">
-              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
-              
-            </div>
-            <div class="col-md-4 form-group mt-3 mt-md-0">
-              <input type="tel" class="form-control" name="mobile" id="phone" placeholder="Your Phone" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-              
-            </div>
-          </div>
-          
-
-          <div class="form-group mt-3">
-            <textarea class="form-control" name="message" rows="5" placeholder="Message (Optional)"></textarea>
-           
-          </div>
-          <div class="mb-3">
-            <div class="loading">Loading</div>
-            <div class="error-message"></div>
-            <div class="sent-message">Your  request has been sent successfully. Thank you!</div>
-          </div>
-          <div class="text-center"><button type="submit" name="submit">Book A Free Demo</button></div>
-        </form>
-
-      </div>
-    </section><!-- End Appointment Section -->
-
-  
-    <!-- ======= Frequently Asked Questions Section ======= -->
-    <section id="faq" class="faq section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Frequently Asked Questions</h2>
-          <p>Aquaguard Active Copper Zinc Booster water purifier Cartridge infuses Copper and Zinc ions into the water to give the purest and healthiest drinking water for your family! When water passes through the cartridge, zinc and copper elutes along with it.</p>
-        </div>
-
-        <div class="faq-list">
-          <ul>
-            <li data-aos="fade-up">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">What is the material used inside the cartridge?
-<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
-                <p>
-                The Aquaguard Active Copper Zinc Booster water purifier cartridge has carbon media loaded with copper and Zinc. As water passes through the cartridge it enhances the taste of the water and increases the level of essential minerals with add-on goodness of copper and zinc along with calcium and magnesium 
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="100">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">How many times in a day can I consume water from Aquagurd water purifier?
-            <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                Start your day with glass of Copper and Zinc water, drink during workout/exercise or sip this water throughout the day anytime as per your convenience.
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="200">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">What is the durability/life of this Cartridge?
-            <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                The cartridge is designed to give the Goodness of Copper and Zinc water up to 6000 litres# of life under standard test conditions.
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="300">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Can I buy the Active copper zinc booster cartridge separately?
-            <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                No, the cartridge isn�t available for individual sales as spares. This is configured in the product itself for usage.
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="400">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">Can I replace my existing cartridge with Active copper zinc booster and what will be the cost?
-            <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                We are yet to launch the exchange plan. You may share your contact details and we'll let you know once this is available.
-                </p>
-              </div>
-            </li>
-
-          </ul>
-        </div>
-
-      </div>
-    </section><!-- End Frequently Asked Questions Section -->
-
-    <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials">
-      <div class="container">
-
-        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <img src="assets/img/test2.webp" class="testimonial-img" alt="">
-                  <h3>Saul Goodman</h3>
-                  <h4>Ceo &amp; Founder</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    We at Aayushi Water Purifier Services, aim to provide clarity about our company profile, products, services and every other detail that you may need.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <img src="assets/img/test.webp" class="testimonial-img" alt="">
-                  <h3>Sara Wilsson</h3>
-                 
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    We are a major producer of thermal and carbonless coated papers worldwide. We have a $50,000 piece of test equipment in one of our quality control labs that is used to measure particle size in our coatings down to 
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <img src="assets/img/test1.webp" class="testimonial-img" alt="">
-                  <h3>Matt Brandon</h3>
-                  <h4>Freelancer</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    We at Aayushi Water Purifier Services, aim to provide clarity about our company profile, products, services and every other detail that you may need.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-           
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-    </section><!-- End Testimonials Section -->
-
-    <!-- ======= Gallery Section ======= -->
-    <section id="gallery" class="gallery">
+     <!-- ======= Gallery Section ======= -->
+     <section id="gallery" class="gallery">
       <div class="container">
 
         <div class="section-title">
@@ -544,6 +364,115 @@ Getting Genuine Service from Aayushi Water Purifier is important as only from Aa
       </div>
     </section><!-- End Gallery Section -->
 
+    <!-- ======= Appointment Section ======= -->
+    <section id="appointment" class="appointment section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Book A Free Demo</h2>
+          <p>Protect Your Family With The Next-Gen Aayushi Water Purifier Services</p>
+        </div>
+
+        <form  method="post"  class="php-email-form">
+          <div class="row">
+            <div class="col-md-4 form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              
+            </div>
+            <div class="col-md-4 form-group mt-3 mt-md-0">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+              
+            </div>
+            <div class="col-md-4 form-group mt-3 mt-md-0">
+              <input type="tel" class="form-control" name="mobile" id="phone" placeholder="Your Phone" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              
+            </div>
+          </div>
+          
+
+          <div class="form-group mt-3">
+            <textarea class="form-control" name="message" rows="5" placeholder="Message (Optional)"></textarea>
+           
+          </div>
+          <div class="mb-3">
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your  request has been sent successfully. Thank you!</div>
+          </div>
+          <div class="text-center"><button type="submit" name="submit">Book A Free Demo</button></div>
+        </form>
+
+      </div>
+    </section><!-- End Appointment Section -->
+
+  
+    
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/test2.webp" class="testimonial-img" alt="">
+                  <h3>Saul Goodman</h3>
+                  <h4>Ceo &amp; Founder</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    We at Aayushi Water Purifier Services, aim to provide clarity about our company profile, products, services and every other detail that you may need.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/test.webp" class="testimonial-img" alt="">
+                  <h3>Sara Wilsson</h3>
+                 
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    We are a major producer of thermal and carbonless coated papers worldwide. We have a $50,000 piece of test equipment in one of our quality control labs that is used to measure particle size in our coatings down to 
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/test1.webp" class="testimonial-img" alt="">
+                  <h3>Matt Brandon</h3>
+                  <h4>Freelancer</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    We at Aayushi Water Purifier Services, aim to provide clarity about our company profile, products, services and every other detail that you may need.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+           
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+   
+
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
       <div class="container">
@@ -617,6 +546,73 @@ Getting Genuine Service from Aayushi Water Purifier is important as only from Aa
       </div>
     </section><!-- End Contact Section -->
 
+    <!-- ======= Frequently Asked Questions Section ======= -->
+    <section id="faq" class="faq section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Frequently Asked Questions</h2>
+          <p>Aquaguard Active Copper Zinc Booster water purifier Cartridge infuses Copper and Zinc ions into the water to give the purest and healthiest drinking water for your family! When water passes through the cartridge, zinc and copper elutes along with it.</p>
+        </div>
+
+        <div class="faq-list">
+          <ul>
+            <li data-aos="fade-up">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">What is the material used inside the cartridge?
+        <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+                <p>
+                The Aquaguard Active Copper Zinc Booster water purifier cartridge has carbon media loaded with copper and Zinc. As water passes through the cartridge it enhances the taste of the water and increases the level of essential minerals with add-on goodness of copper and zinc along with calcium and magnesium 
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="100">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">How many times in a day can I consume water from Aquagurd water purifier?
+            <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                Start your day with glass of Copper and Zinc water, drink during workout/exercise or sip this water throughout the day anytime as per your convenience.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="200">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">What is the durability/life of this Cartridge?
+            <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                The cartridge is designed to give the Goodness of Copper and Zinc water up to 6000 litres# of life under standard test conditions.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="300">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Can I buy the Active copper zinc booster cartridge separately?
+            <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                No, the cartridge isn�t available for individual sales as spares. This is configured in the product itself for usage.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="400">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">Can I replace my existing cartridge with Active copper zinc booster and what will be the cost?
+            <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                We are yet to launch the exchange plan. You may share your contact details and we'll let you know once this is available.
+                </p>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </section><!-- End Frequently Asked Questions Section -->
+
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
@@ -627,10 +623,14 @@ Getting Genuine Service from Aayushi Water Purifier is important as only from Aa
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>Aayushi Water Purifier</h3>
+            <h4>Aayushi Water Purifier</h4>
             <p>
-            A/4003, Mayuresh Trade Center, City Mall, Sector-19, Plot no.4, Vashi-Turbhe Road, Navi Mumbai-400705 <br><br>
-              <strong>Phone:</strong>+91 9321116602/+91 7666850999<br>
+            A/4003, Mayuresh Trade Center, City Mall, Sector-19, Plot no.4, Vashi-Turbhe Road, Navi Mumbai-400705<br><br> <div class="social-links text-center text-md-right pt-3 pt-md-0">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+      </div><br><br>
+              <strong>Phone:</strong>+91 7666850999<br>
               <strong>Email:</strong> aayushiwps@yahoo.com<br>
             </p>
           </div>
@@ -670,7 +670,7 @@ Getting Genuine Service from Aayushi Water Purifier is important as only from Aa
 
       <div class="me-md-auto text-center text-md-start">
         <div class="copyright">
-          &copy; Copyright <strong><span>Aayushi water purifier services</span></strong>. All Rights Reserved
+           <strong><span>Designed By Tectignis IT Solutions.</span></strong>. All Rights Reserved
         </div>
         <div class="credits">
           <!-- All the links in the footer should remain intact. -->
@@ -680,11 +680,7 @@ Getting Genuine Service from Aayushi Water Purifier is important as only from Aa
          
         </div>
       </div>
-      <div class="social-links text-center text-md-right pt-3 pt-md-0">
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-      </div>
+      
     </div>
   </footer><!-- End Footer -->
 
