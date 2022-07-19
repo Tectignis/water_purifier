@@ -112,7 +112,7 @@ if(isset($_POST['submit'])){
         <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
         <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
         <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+        
       </div>
     </div>
   </div>
@@ -145,9 +145,9 @@ if(isset($_POST['submit'])){
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
-    <div class="container">
-      <h3>Welcome to Aayushi Water Purifier Services</h3>
-      <h5>The Double Goodness of Copper And Zinc Now In Your Aquaguard.</h5>
+    <div class="container" >
+      <h1 style=" font-weight:900;">Welcome to Aayushi Water Purifier Services</h1>
+      <h5 style=" color: #2c4964; ;" >The Double Goodness of Copper And Zinc Now In Your Aquaguard.</h5>
       
     </div>
   </section><!-- End Hero -->
@@ -203,7 +203,16 @@ if(isset($_POST['submit'])){
       </div>
     </section>
    
-    <div class="" style="justify-content:end; float:right;transform: rotate(90deg);margin-right: -65px;"><a href="#appointment"><button type="text" style="background:#0437F2; color:white; border:none;">Book A Free Demo</button></a></div>
+    <div class="" style="position:fixed;
+	width:160px;
+	height:60px;
+	top:250px;
+	right:  -50px;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+
+  transform: rotate(90deg);"><a href="#appointment"><button type="text" style="background:#1977cc; color:white; border:#1977cc; border-radius:0px 0px 7px 7px; ">Book A Free Demo</button></a></div>
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
       <div class="container-fluid">
@@ -252,7 +261,7 @@ Zinc is one such micro-nutrient and with the dedicated efforts of Our Experience
         <div class="row">
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="icon-box">
-              <div class="icon"><i class="fa-brands fa-servicestack"></i></div>
+              <div class="icon"><i class="bi bi-gear"></i></div>
               <h4><a href="">Maintenance</a></h4>
               <p>Annual Maintenance Contract online to ensure that your product is working efficiently and you have the much needed peace of mind. No lengthy procedures, no signing up forms.</p>
             </div>
@@ -268,7 +277,7 @@ Zinc is one such micro-nutrient and with the dedicated efforts of Our Experience
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
             <div class="icon-box">
-              <div class="icon"><i class="fa-brands fa-servicestack"></i></div>
+              <div class="icon"><i class="bi bi-arrow-repeat"></i></div>
               <h4><a href=""> Parts Replacement</a></h4>
               <p>*Free replacement of consumables such as filters and activated carbon</p>
             </div>
