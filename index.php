@@ -7,7 +7,7 @@ if(isset($_POST['submit'])){
     $mobile=$_POST['mobile'];  
     $message=$_POST['message'];  
   $from = 'Enquiry <'.$email.'>' . "\r\n";
-  $sendTo = "Enquiry <yadavpriya1425@gmail.com>";
+  $sendTo = "Enquiry <dkeshari094@gmail.com>";
   $subject = 'Contact Form';
   // $fields = array( 'name' => 'name' );
   $from = 'Aayushi water purifier';
@@ -203,7 +203,7 @@ if(isset($_POST['submit'])){
       </div>
     </section>
    
-    <div class="" style="justify-content:end; float:right;transform: rotate(90deg);margin-right: -48px;"><button type="text" name="submit" style="background:#0437F2; color:white;">Book A Free Demo</button></div>
+    <div class="" style="justify-content:end; float:right;transform: rotate(90deg);margin-right: -48px;"><a class="nav-link scrollto" href="#contact"><button type="text" style="background:#0437F2; color:white;">Book A Free Demo</button></a></div>
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
       <div class="container-fluid">
