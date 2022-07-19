@@ -679,8 +679,9 @@ Zinc is one such micro-nutrient and with the dedicated efforts of Our Experience
 
       <div class="me-md-auto text-center text-md-start">
         <div class="copyright">
-           <strong><span>Designed By Tectignis IT Solutions.</span></strong>. All Rights Reserved
+           <strong><span>Aayush Water Purifier Services</span></strong>. All Rights Reserved
         </div>
+       
         <div class="credits">
           <!-- All the links in the footer should remain intact. -->
           <!-- You can delete the links only if you purchased the pro version. -->
@@ -689,6 +690,9 @@ Zinc is one such micro-nutrient and with the dedicated efforts of Our Experience
          
         </div>
       </div>
+      <div class="mr-0 ml-5">
+           <strong><span>Designed By Tectignis IT Solutions.</span></strong>
+        </div>
       
     </div>
   </footer><!-- End Footer -->
