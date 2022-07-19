@@ -121,7 +121,7 @@ if(isset($_POST['submit'])){
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo me-auto"><a href="index.html">Aayushi Water Purifier </a></h1>
+      <h1 class="logo me-auto"><a href="index"><img src="assets/img/logo.png" alt="logo" width="250%" height="250%"></a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -635,7 +635,7 @@ Zinc is one such micro-nutrient and with the dedicated efforts of Our Experience
             <h4>Aayushi Water Purifier</h4>
             <p>
             A/4003, Mayuresh Trade Center, City Mall, Sector-19, Plot no.4, Vashi-Turbhe Road, Navi Mumbai-400705<br><br> <div class="social-links text-center text-md-right pt-3 pt-md-0">
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> -->
         <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
         <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
       </div><br><br>
