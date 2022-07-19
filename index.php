@@ -203,7 +203,7 @@ if(isset($_POST['submit'])){
       </div>
     </section>
    
-    <div class="" style="justify-content:end; float:right;transform: rotate(90deg);margin-right: -48px;"><a class="nav-link scrollto" href="#contact"><button type="text" style="background:#0437F2; color:white;">Book A Free Demo</button></a></div>
+    <div class="" style="justify-content:end; float:right;transform: rotate(90deg);margin-right: -65px;"><a href="#appointment"><button type="text" style="background:#0437F2; color:white; border:none;">Book A Free Demo</button></a></div>
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
       <div class="container-fluid">
