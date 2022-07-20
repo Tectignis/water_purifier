@@ -72,7 +72,7 @@ if(isset($_POST['submit'])){
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/logo.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -109,9 +109,9 @@ if(isset($_POST['submit'])){
         <i class="bi bi-phone"></i> <a href="https://wa.me/919321116602">91 9321116602</a>
       </div>
       <div class="d-none d-lg-flex social-links align-items-center">
-        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+       
+        <a href="https://www.facebook.com/" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/" class="instagram"><i class="bi bi-instagram"></i></a>
         
       </div>
     </div>
@@ -121,7 +121,7 @@ if(isset($_POST['submit'])){
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo me-auto"><a href="index"><img src="assets/img/logo.png" alt="logo" width="250%" height="250%"></a></h1>
+      <h1 class="logo me-auto"><a href="index"><img src="assets/img/logo.png" alt="logo" height="250%" width="154%"></a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -146,8 +146,8 @@ if(isset($_POST['submit'])){
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
     <div class="container" >
-      <h1 style=" font-weight:900;">Welcome to Aayushi Water Purifier Services</h1>
-      <h5 style=" color: #2c4964; ;" >The Double Goodness of Copper And Zinc Now In Your Aquaguard.</h5>
+      <h2 style=" font-weight:490px;"><b>Welcome to Aayushi Water Purifier Services</b></h2>
+      <h5 style=" color: #2c4964; ;" >&nbsp;&nbsp;&nbsp; The Double Goodness of Copper And Zinc Now In Your Aquaguard.</h5>
       
     </div>
   </section><!-- End Hero -->
@@ -634,10 +634,10 @@ Zinc is one such micro-nutrient and with the dedicated efforts of Our Experience
           <div class="col-lg-3 col-md-6 footer-contact">
             <h4>Aayushi Water Purifier</h4>
             <p>
-            A/4003, Mayuresh Trade Center, City Mall, Sector-19, Plot no.4, Vashi-Turbhe Road, Navi Mumbai-400705<br><br> <div class="social-links text-center text-md-right pt-3 pt-md-0">
+            A/4003, Mayuresh Trade Center, City Mall, Sector-19, Plot no.4, Vashi-Turbhe Road, Navi Mumbai-400705<br><br> <div class="social-links text-left text-md-left pt-3 pt-md-0">
         <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> -->
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="https://www.facebook.com/" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.instagram.com/" class="instagram"><i class="bx bxl-instagram"></i></a>
       </div><br><br>
               <strong>Phone:</strong>+91 7666850999<br>
               <strong>Email:</strong> aayushiwps@yahoo.com<br>
@@ -691,7 +691,7 @@ Zinc is one such micro-nutrient and with the dedicated efforts of Our Experience
         </div>
       </div>
       <div class="mr-0 ml-5">
-           <strong><span>Designed By Tectignis IT Solutions.</span></strong>
+           <strong><span>Designed By<a href="https://tectignis.in"> Tectignis IT Solutions.</a></span></strong>
         </div>
       
     </div>
