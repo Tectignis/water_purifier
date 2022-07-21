@@ -208,11 +208,12 @@ if(isset($_POST['submit'])){
 	height:60px;
 	top:250px;
 	right:  -50px;
+  z-index:999999999999;
 	color:#FFF;
 	border-radius:50px;
 	text-align:center;
 
-  transform: rotate(90deg);"><a href="#appointment"><button type="text" style="background:#1977cc; color:white; border:#1977cc; border-radius:0px 0px 7px 7px; z-index:999999999999999999">Book A Free Demo</button></a></div>
+  transform: rotate(90deg);"><a href="#appointment"><button type="text" style="background:#1977cc; color:white; border:#1977cc; border-radius:0px 0px 7px 7px; z-index:99999999999999999999999999999">Book A Free Demo</button></a></div>
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
       <div class="container-fluid">
@@ -303,7 +304,7 @@ Zinc is one such micro-nutrient and with the dedicated efforts of Our Experience
       <div class="container-fluid">
         <div class="row g-0">
 
-          <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="col-lg-3 col-md-4 col-sm-3 col-6">
             <div class="gallery-item">
               <a href="assets/img/13.webp" class="galelry-lightbox">
                 <img src="assets/img/13.webp" alt="" class="img-fluid">
@@ -311,21 +312,21 @@ Zinc is one such micro-nutrient and with the dedicated efforts of Our Experience
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="col-lg-3 col-md-4 col-sm-3 col-6">
             <div class="gallery-item">
               <a href="assets/img/c3.webp" class="galelry-lightbox">
                 <img src="assets/img/c3.webp" alt="" class="img-fluid">
               </a>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="col-lg-3 col-md-4 col-sm-3 col-6">
             <div class="gallery-item">
               <a href="assets/img/5.webp" class="galelry-lightbox">
                 <img src="assets/img/5.webp" alt="" class="img-fluid">
               </a>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="col-lg-3 col-md-4 col-sm-3 col-6">
             <div class="gallery-item">
               <a href="assets/img/c1.webp" class="galelry-lightbox">
                 <img src="assets/img/c1.webp" alt="" class="img-fluid">
@@ -336,7 +337,7 @@ Zinc is one such micro-nutrient and with the dedicated efforts of Our Experience
           
         </div>
         <div class="row g-0">
-          <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="col-lg-3 col-md-4 col-sm-3 col-6">
             <div class="gallery-item">
               <a href="assets/img/16.webp" class="galelry-lightbox">
                 <img src="assets/img/16.webp" alt="" class="img-fluid">
@@ -344,7 +345,7 @@ Zinc is one such micro-nutrient and with the dedicated efforts of Our Experience
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="col-lg-3 col-md-4 col-sm-3 col-6">
             <div class="gallery-item">
               <a href="assets/img/14.webp" class="galelry-lightbox">
                 <img src="assets/img/14.webp" alt="" class="img-fluid">
@@ -352,7 +353,7 @@ Zinc is one such micro-nutrient and with the dedicated efforts of Our Experience
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="col-lg-3 col-md-4 col-sm-3 col-6">
             <div class="gallery-item">
               <a href="assets/img/c.webp" class="galelry-lightbox">
                 <img src="assets/img/c.webp" alt="" class="img-fluid">
@@ -360,7 +361,7 @@ Zinc is one such micro-nutrient and with the dedicated efforts of Our Experience
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="col-lg-3 col-md-4 col-sm-3 col-6">
             <div class="gallery-item">
               <a href="assets/img/a1.webp" class="galelry-lightbox">
                 <img src="assets/img/a1.webp" alt="" class="img-fluid">
