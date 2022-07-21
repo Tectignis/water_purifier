@@ -106,7 +106,7 @@ if(isset($_POST['submit'])){
     <div class="container d-flex justify-content-between">
       <div class="contact-info d-flex align-items-center">
         <i class="bi bi-envelope"></i> <a href="mailto:contact@example.com">aayushiwps@yahoo.com</a>
-        <i class="bi bi-phone"></i> <a href="https://wa.me/919321116602">91 9321116602</a>
+        <i class="bi bi-phone"></i> <a href="https://wa.me/919321116602">91 7666850999</a>
       </div>
       <div class="d-none d-lg-flex social-links align-items-center">
        
